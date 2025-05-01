@@ -23,6 +23,7 @@ python manage.py runserver
 - Visit: http://localhost:8000/difference?number=10
 
 ## Example Response
+```bash
 {
   "datetime": "2025-04-30T17:05:23.123456Z",
   "value": 2640,
@@ -30,3 +31,4 @@ python manage.py runserver
   "occurrences": 3,
   "last_datetime": "2025-04-30T17:04:00.000000Z"
 }
+```
