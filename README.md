@@ -10,7 +10,7 @@ This Django REST API returns the difference between:
 
 ## Setup
 - Inside your terminal, navigate to a folder you want to download the project in. Once there, run the following commands:
-
+```bash
 git clone https://github.com/Boellis/BackstageTakehome.git
 cd BackstageTakehome
 python -m venv venv
@@ -18,7 +18,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
-
+```
 ## Usage
 - Visit: http://localhost:8000/difference?number=10
 
